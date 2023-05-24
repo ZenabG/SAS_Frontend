@@ -1,8 +1,8 @@
 /// <reference types="cypress"/>
-import { HomePage } from "./pages/HomePage"
-import { SearchPage } from "./pages/SearchPage"
-import { ArtistPage } from "./pages/ArtistPage"
-import { AlbumPage } from "./pages/AlbumPage"
+import { HomePage } from "../pages/HomePage"
+import { SearchPage } from "../pages/SearchPage"
+import { ArtistPage } from "../pages/ArtistPage"
+import { AlbumPage } from "../pages/AlbumPage"
 
 const artist_name = 'Taylor Swift'
 const homePage = new HomePage

@@ -10,9 +10,8 @@ Cypress with Typescript
 - On test failure screenshots and videos will be added under `/cypress/screenshots` and `/cypress/videos` folders respectively
 
 ## Test folder structure (newly added files):
-- /cypress/e2e/pages - containing page methods and locators 
-- /cypress/e2e/support - containing e2e.js for defining config, custom commands, test hooks etc. (currently it's empty but it's mandatory to run e2e tests)
-- /cypress/e2e/CriticalPathTests.ts - containing E2E tests for all critical paths defined under /documents/critical-path-definition.md
+- src/tests/E2ETests/cypress/e2e/pages - containing page methods and locators 
+- src/tests/E2ETests/cypress/e2e/tests/CriticalPathTests.ts - containing E2E tests for all critical paths defined under /documents/critical-path-definition.md
 - cypress.config.js - contaning configs for e2e tests
 - .env - containing client id and client secret of spotify dev account
 

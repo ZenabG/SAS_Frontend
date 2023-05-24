@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "test": "jest",
     "stop": "kill $(lsof -t -i:3000)",
-    "cy-test": "cypress run --spec cypress/e2e/CriticalPathTests.ts -b chrome --headed"
+    "cy-test": "cypress run --spec src/tests/E2ETests/cypress/e2e/tests/CriticalPathTests.ts -b chrome --headed"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.0",

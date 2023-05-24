@@ -4,6 +4,7 @@ export default defineConfig({
   e2e: {
     watchForFileChanges: false,
     defaultCommandTimeout: 5000,
-    specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}'
+    specPattern: 'src/tests/E2ETests/cypress/e2e/tests/*.{js,jsx,ts,tsx}',
+    supportFile: false
   },
 });
