@@ -8,5 +8,6 @@ describe("Error component unit tests", () => {
     render(<Error />);
     const element = screen.getByRole("heading");
     expect(element).toBeInTheDocument();
+    expect(element.textContent).toEqual("Something went wrong");
   });
 });
