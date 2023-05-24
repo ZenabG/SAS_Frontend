@@ -1,5 +1,5 @@
-./src/tests/E2ETests/cypress/screenshots
-./src/tests/E2ETests/cypress/videos
-./cypress
+src/tests/E2ETests/cypress/screenshots
+src/tests/E2ETests/cypress/videos
+cypress
 .idea
 node_modules
